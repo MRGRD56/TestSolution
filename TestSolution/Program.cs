@@ -18,6 +18,8 @@ namespace TestSolution
                 .Where(x => x.Contains("1"))
                 .ToList()
                 .ForEach(Console.WriteLine);
+            string newString = "some test (beta)"; //master
+            //some new text
         }
     }
 }
